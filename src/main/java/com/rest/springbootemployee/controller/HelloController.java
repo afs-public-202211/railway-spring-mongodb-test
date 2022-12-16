@@ -11,6 +11,6 @@ public class HelloController {
     @GetMapping(path = "/{userName}")
     public String getAll(@PathVariable String userName) {
 
-        return "new changes - Hello:" + userName;
+        return "Hello:" + userName;
     }
 }
